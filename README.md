@@ -12,3 +12,6 @@ Trabalhar com padrão DTO (Data Transfer Object) e ModelMapper
 Validação de campos com Jakarta Bean Validation
 Configuração de Auditoria com Spring-JPA-Auditing
 Boas práticas a se adotar no desenvolvimento de uma API Rest
+
+
+BD MySQL
