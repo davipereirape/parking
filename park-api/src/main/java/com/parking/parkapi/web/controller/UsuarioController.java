@@ -20,7 +20,7 @@ public class UsuarioController {
         Usuario usuarioSalvo = usuarioService.salvar(usuario);
         return ResponseEntity.status(HttpStatus.CREATED).body(usuarioSalvo);
     }
-a
+
     @GetMapping("/{id}")
     public ResponseEntity<Usuario> getById(@PathVariable Long id) {
         Usuario usuario = usuarioService.buscarPorId(id);
